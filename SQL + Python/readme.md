@@ -9,11 +9,9 @@ A "Hogwarts DB Comparison" module that tests and compares PostgreSQL and MySQL q
 
 For clarity and maintainability, the repository is organized as follows:
 
-/flask_app
-Contains all code related to the Flask application, including the main flask_app.py file, configuration files, templates, and static assets.
-
-/streamlit_dashboard
+/Flaskapp+Streamlit_tiktok_dashboard.py
 Contains the Streamlit TikTok dashboard code (e.g., Streamlit_tiktok_dashboard.py) and related assets.
+& also contains all code related to the Flask application, including the main flask_app.py file, configuration files, templates, and static assets.
 
 /hogwarts_db_comparison
 Contains scripts and tests for comparing PostgreSQL and MySQL performance. Subdirectories may separate PostgreSQL tests from MySQL tests.
