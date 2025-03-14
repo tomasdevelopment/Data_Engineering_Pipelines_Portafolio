@@ -1,0 +1,13 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AllowECRService",
+      "Effect": "Allow",
+      "Principal": {
+        "Service": "ecr.amazonaws.com"
+      },
+      "Action": "sts:AssumeRole"
+    }
+  ]
+}
