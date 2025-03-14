@@ -1,6 +1,6 @@
 ================================================================ PROJECT OVERVIEW
 
-This repository is designed to support a multi-component marketing analytics system. It includes:
+This repository is designed to support a python sql quering of different sql engies as mysql, postgres sql and redshift, using a wide variety of Python libraries. It includes:
 
 A Flask application that connects to a MySQL server to store and process marketing API results.
 A Streamlit dashboard that visualizes TikTok data.
