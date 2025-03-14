@@ -1,5 +1,14 @@
 AWS Lambda Deployment with Docker (Ubuntu EC2 Instance)
 
+
+FIle structure 
+├── /content
+│ ├── app.py
+│ ├── bootstrap.py
+│ └── requirements.txt
+└── Dockerfile
+
+
 Setup PEM File Permissions (Windows)
 
 Restrict access only to your current user:
@@ -64,6 +73,8 @@ sudo docker push 863518419981.dkr.ecr.us-east-2.amazonaws.com/pandas_json_projec
 
 Quick SSH Access Reference
 ssh -i /path/to/your-key.pem ubuntu@3.144.250.179
+
+
 
 
 
